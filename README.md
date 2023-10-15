@@ -20,6 +20,10 @@ Overlapping allows for better tracking of rapidly changing frequency components 
 ![](/ppt/overlap.gif)
 
 ## Other Problem-Specific Parameters
+### Interpolation
+To ensure consistency across windows with different sizes, one can interpolate or resample the data to a common time grid. 
+Here, in the toy example, the simulated time-series is sampled uniformly, $f_s = 1000$, hence the count of within-window values is identical across windows, i.e., no need to within-window interpolation.
+
 ### Time-Domain Signal Duration
 ![](/ppt/duration.gif)
 
